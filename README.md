@@ -1,4 +1,4 @@
-# PCom
+# PCom 1.0.1
 An interactive assistant designed especially for FIRST Robotics Competition tournament pits to help team find a little bit of structure, and, not to mention, humor, in a time of chaos.
 
 ## Getting Started
@@ -20,7 +20,15 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+pip install SpeechRecognition
+
+import speech_recognition as sr
+
+sudo apt-get install portaudio19-dev
+
+pip install pyaudio
+
+pip install gtts
 ```
 
 And repeat
@@ -31,33 +39,10 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [PortAudio](http://www.portaudio.com/) - A free, cross-platform, open-source, audio I/O library
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
